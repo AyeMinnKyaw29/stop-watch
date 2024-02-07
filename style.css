@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    min-height: 70vh;
+}
+
+.timerContainer {
+    width: 200px;
+    height: 55px;
+    background: #87ceebaa;
+    border: 1.5px solid #555;
+    border-radius: 5px;
+    box-shadow: 0px 0px 7px #000a;
+    margin-bottom: 30px;
+    padding: 5px 12px;
+}
+
+.time {
+    font-size: 2em;
+}
+
+.milesecond {
+    text-align: end;
+}
+
+.btn {
+    width: 100px;
+    padding: 5px 0;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: transparent;
+    color: #000;
+    transition: background .3s;
+}
+
+.btn:active {
+    background: #dbdbdb;
+    transition: background .2s;
+}
+
+.btn-blue {
+    background: #87ceeb;
+}
+
+.btn-red {
+    background: #f00a;
+}
+
+.btn-green {
+    background: #15ff00aa;
+}
+
+.btn-dark {
+    background: #343a40;
+    color: #fff;
+}
